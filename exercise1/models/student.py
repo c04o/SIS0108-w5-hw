@@ -7,3 +7,6 @@ class Student:
         self.height = height
         self.sex = sex
         self.average = average
+
+    def __str__(self):
+        return (f"ID: {self.id}, Name: {self.name}, Last name: {self.last_name}, Weight: {self.weight}, Height: {self.height}, Sex: {self.sex}, Average: {self.average}")
